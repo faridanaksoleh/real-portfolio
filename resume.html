@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumeku</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#3B82F6',
+                        dark: '#1F2937',
+                        light: '#F9FAFB',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+    <div class="max-w-4xl mx-auto my-10 bg-white rounded-lg shadow-md overflow-hidden">
+        <!-- Header Section -->
+        <div class="bg-primary p-8 text-white">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h1 class="text-3xl font-bold">Muhammad Farid Ahsan</h1>
+                    <p class="text-lg opacity-90 mt-1">Fullstack Developer (otw)</p>
+                </div>
+                <div class="mt-4 md:mt-0 text-sm">
+                    <p class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg> itspuyd@gmail.com</p>
+                    <p class="flex items-center mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg> +62 85798203978</p>
+                    <p class="flex items-center mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg> Paser, Indonesia</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="p-8">
+            <!-- About Section -->
+            <div class="mb-8">
+                <h2 class="text-xl font-semibold text-dark border-b-2 border-primary pb-1 inline-block">Tentang Saya</h2>
+                <p class="mt-3 text-gray-700 leading-relaxed">
+                    Frontend Developer dengan 1 tahun pengalaman dalam membangun aplikasi web yang responsif dan user-friendly. 
+                    Berpengalaman dalam React.js dan modern JavaScript. Passionate tentang menciptakan antarmuka 
+                    pengguna yang intuitif dan pengalaman pengguna yang luar biasa.
+                </p>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="mb-8">
+                <h2 class="text-xl font-semibold text-dark border-b-2 border-primary pb-1 inline-block">Keahlian Teknis</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                    <div>
+                        <h3 class="font-medium text-gray-900">Frontend</h3>
+                        <ul class="mt-2 space-y-1">
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                                HTML5, CSS3, JavaScript (ES6+)
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                                React.js
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                                Tailwind CSS, Bootstrap
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-medium text-gray-900">Tools & Lainnya</h3>
+                        <ul class="mt-2 space-y-1">
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                                Git, GitHub, GitLab
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                                Vite
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                                Figma
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="mb-8">
+                <h2 class="text-xl font-semibold text-dark border-b-2 border-primary pb-1 inline-block">Pengalaman Kerja (maunya sih gini)</h2>
+                
+                <div class="mt-4 space-y-6">
+                    <!-- Experience 1 -->
+                    <div class="border-l-4 border-primary pl-4">
+                        <div class="flex flex-col md:flex-row md:justify-between">
+                            <h3 class="font-medium text-gray-900">Frontend Developer</h3>
+                            <p class="text-sm text-gray-600 md:mt-0 mt-1">Jan 2027 - Jan 2030</p>
+                        </div>
+                        <p class="text-gray-700 font-medium">Perusahaan Teknologi XYZ</p>
+                        <ul class="mt-2 space-y-1 text-gray-700 list-disc list-inside">
+                            <li>Mengembangkan dan memelihara aplikasi web menggunakan React.js dan TypeScript</li>
+                            <li>Mengoptimalkan performa aplikasi hingga meningkatkan kecepatan loading sebesar 40%</li>
+                            <li>Berkolaborasi dengan tim UX/UI untuk mengimplementasikan desain yang responsif</li>
+                            <li>Menerapkan testing menggunakan Jest dan React Testing Library</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Experience 2 -->
+                    <div class="border-l-4 border-primary pl-4">
+                        <div class="flex flex-col md:flex-row md:justify-between">
+                            <h3 class="font-medium text-gray-900">Junior Frontend Developer</h3>
+                            <p class="text-sm text-gray-600 md:mt-0 mt-1">Mar 2025 - Des 2026</p>
+                        </div>
+                        <p class="text-gray-700 font-medium">Startup ABC</p>
+                        <ul class="mt-2 space-y-1 text-gray-700 list-disc list-inside">
+                            <li>Membangun komponen UI reusable dengan Vue.js</li>
+                            <li>Mengintegrasikan API dengan Axios dan menangani state management dengan Vuex</li>
+                            <li>Mengimplementasikan desain mobile-first dengan Tailwind CSS</li>
+                            <li>Berpartisipasi dalam code review dan sprint planning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="mb-8">
+                <h2 class="text-xl font-semibold text-dark border-b-2 border-primary pb-1 inline-block">Pendidikan</h2>
+                <div class="mt-4 space-y-4">
+                    <div class="border-l-4 border-primary pl-4">
+                        <div class="flex flex-col md:flex-row md:justify-between">
+                            <h3 class="font-medium text-gray-900">Sarjana Teknik Informatika (otw)</h3>
+                            <p class="text-sm text-gray-600 md:mt-0 mt-1">2025 - 2029</p>
+                        </div>
+                        <p class="text-gray-700">IDN jonggol, Jawa Barat, Indonesia</p>
+                        <p class="text-gray-600 text-sm mt-1">IPK: 3.75/4.00< (Aamiin)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div>
+                <h2 class="text-xl font-semibold text-dark border-b-2 border-primary pb-1 inline-block">Proyek Terkini</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                    <!-- Project 1 -->
+                    <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                        <h3 class="font-medium text-gray-900">E-commerce Dashboard (otw)</h3>
+                        <p class="text-sm text-gray-600 mt-1">React.js, Tailwind CSS, Node.js</p>
+                        <p class="text-gray-700 mt-2 text-sm">Dashboard admin untuk mengelola produk, pesanan, dan pelanggan dengan fitur analitik real-time.</p>
+                        <div class="mt-3 flex space-x-2">
+                            <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">React</span>
+                            <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Tailwind</span>
+                            <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Chart.js</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                        <h3 class="font-medium text-gray-900">Aplikasi Task Management (otw)</h3>
+                        <p class="text-sm text-gray-600 mt-1">Vue.js, Firebase, Vuetify</p>
+                        <p class="text-gray-700 mt-2 text-sm">Aplikasi manajemen tugas kolaboratif dengan autentikasi pengguna dan penyimpanan cloud.</p>
+                        <div class="mt-3 flex space-x-2">
+                            <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Vue.js</span>
+                            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Firebase</span>
+                            <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Vuetify</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-100 px-8 py-4 text-center text-sm text-gray-600">
+            <p>© 2025 Farid Ahsan. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
